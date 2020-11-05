@@ -48,3 +48,5 @@ F:\Inventario\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.dll
 F:\Inventario\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.pdb
 F:\Inventario\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.genruntimeconfig.cache
 F:\Inventario\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.csproj.CopyComplete
+F:\Inventario\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\ejercicios\BlazorPages\Form001.razor.g.cs
+F:\Inventario\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Components\ejercicios\BlazorPages\Form001.razor.g.cs

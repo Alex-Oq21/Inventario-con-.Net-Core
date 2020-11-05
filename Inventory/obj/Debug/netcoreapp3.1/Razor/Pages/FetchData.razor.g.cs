@@ -73,6 +73,13 @@ using Inventory.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "F:\Inventario\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.ejercicios.BlazorPages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "F:\Inventario\Inventory\Inventory\Pages\FetchData.razor"
 using Inventory.Data;
 

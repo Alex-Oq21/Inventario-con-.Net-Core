@@ -76,6 +76,13 @@ using Inventory.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "F:\Inventario\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.ejercicios.BlazorPages;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
