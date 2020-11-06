@@ -9,9 +9,11 @@ namespace Entities
     {
         [Key]
         [StringLength (50)]
-        public String CategoryId { get; set; }
+        public string CategoryId { get; set; }
         [Required]
         [StringLength (100)]
-        public String CategoryName { get; set; }
+        public string CategoryName { get; set; }
+        //Relación con Producto
+        public ICollection<ProductEntity> Products { get; set; }
     }
 }

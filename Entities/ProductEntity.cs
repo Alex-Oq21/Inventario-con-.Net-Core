@@ -12,13 +12,18 @@ namespace Entities
         public String ProductId { get; set; }
        [Required] 
        [StringLength(100)]
-       public String ProductName { get; set; }
+       public string ProductName { get; set; }
 
        [StringLength(600)]
-       public String ProductDescription { get; set; }
+       public string ProductDescription { get; set; }
 
-        
        public int TotalQuantity { get; set; }
+
+        //Relación con Categoria
+       public string CategoryId { get; set; }
+       public CategoryEntity Category { get; set; }
+        //Relación con Almacenamiento
+       public ICollection<StorageEntity> Storages { get; set; }
 
     }
 }

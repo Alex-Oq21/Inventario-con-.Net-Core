@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Entities
 {
-    class InputOutputEntity
+    public class InputOutputEntity
     {
         [Key]
         [StringLength(50)]
-        public String InOutId { get; set; }
+        public string InOutId { get; set; }
 
         [Required]
         public DateTime InOutDate { get; set; }
@@ -18,6 +18,10 @@ namespace Entities
         public int Quantity { get; set; }
 
         [Required]
-        public int IsInput { get; set; }
+        public bool IsInput { get; set; }
+
+        //Relación con ALmacenamiento o Storage
+        public string StorageId { get; set; }
+        public StorageEntity Storage { get; set;}
     }
 }
