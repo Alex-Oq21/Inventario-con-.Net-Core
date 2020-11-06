@@ -83,6 +83,13 @@ using Inventory.Components.ejercicios.BlazorPages;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "F:\Inventario\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.ejercicios.Forms;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
