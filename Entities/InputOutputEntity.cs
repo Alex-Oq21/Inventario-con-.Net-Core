@@ -22,6 +22,6 @@ namespace Entities
 
         //Relación con ALmacenamiento o Storage
         public string StorageId { get; set; }
-        public StorageEntity Storage { get; set;}
+        public StorageEntity Storage { get; set; }
     }
 }

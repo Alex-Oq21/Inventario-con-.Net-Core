@@ -18,12 +18,12 @@ namespace Entities
         public int PartialQuantity { get; set; }
 
         //Relación con productos
-       public string ProductId { get; set; }
-       public ProductEntity Product { get; set; }
+        public string ProductId { get; set; }
+        public ProductEntity Product { get; set; }
 
-        //Relación con Bodega o Wherehouse
-        public string WhereHouseId { get; set; }
-        public WherehouseEntity wherehouse { get; set; } 
+        //Relación con Bodega o Warehouse
+        public string WareHouseId { get; set; }
+        public WarehouseEntity warehouse { get; set; }
 
         //Relación con movimientos o InputOutPut
         public ICollection<InputOutputEntity> inputOutputs { get; set; }

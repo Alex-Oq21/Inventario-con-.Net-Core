@@ -8,10 +8,10 @@ namespace Entities
     public class CategoryEntity
     {
         [Key]
-        [StringLength (50)]
+        [StringLength(50)]
         public string CategoryId { get; set; }
         [Required]
-        [StringLength (100)]
+        [StringLength(100)]
         public string CategoryName { get; set; }
         //Relación con Producto
         public ICollection<ProductEntity> Products { get; set; }
